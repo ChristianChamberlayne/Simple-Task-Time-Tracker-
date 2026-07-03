@@ -125,7 +125,7 @@ class TaskRowWidget(QWidget):
 class TaskTimeTrackerWindow(QMainWindow):
     def __init__(self) -> None:
         super().__init__()
-        self.setWindowTitle("Experiment 158")
+        self.setWindowTitle("Task Tracker")
         self.resize(520, 640)
 
         self.state = AppState()
